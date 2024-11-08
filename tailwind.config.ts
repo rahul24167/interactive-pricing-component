@@ -6,9 +6,18 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     colors: {
-      'white':'#FFFFFF',
+      // background: {
+      //   DEFAULT: '#FFFFFF',
+      //   dark: '#000000',
+      // },
+      // greytext:{
+      //   DEFAULT: '#848EAD',
+      //   dark: '#848EAD',
+      // },
+      'white': '#FFFFFF',
       'back':'#F2F2F2',
       'hero':'#D9D2E9',
       'cyan':'#293356',

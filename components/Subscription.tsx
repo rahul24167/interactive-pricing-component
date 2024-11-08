@@ -39,7 +39,7 @@ export default function PricingSlider() {
           <div className="text-center">
             <div className="text-sm sm:text-base text-[#848EAD] font-semibold mb-6 sm:flex sm:flex-row sm:justify-between sm:items-center ">
               <div>100K PAGEVIEWS</div>
-              <div className="hidden sm:flex text-3xl sm:text-5xl font-bold text-[#293356]">
+              <div className="hidden sm:flex text-4xl sm:text-5xl font-bold text-[#293356]">
                 ${price}{" "}
                 <span className="text-base sm:text-lg text-[#848EAD] font-semibold mt-6">
                   /month

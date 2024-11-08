@@ -1,3 +1,4 @@
+"use client"
 export const Intro= ()=>{
     return(
         <div className="flex flex-col items-center justify-center">
