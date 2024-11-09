@@ -12,7 +12,7 @@ export default function PricingSlider() {
     // Price should range from $5 to $50, scaled based on the slider value
     const priceRange = 32 - 4; // Price range from $5 to 50$
     const priceFactor = (sliderValue - 100) / (2000 - 100); // Normalize the slider value
-    let calculatedPrice = 4 + priceFactor * priceRange; // Calculate price between $5 and $50
+    const calculatedPrice = 4 + priceFactor * priceRange; // Calculate price between $5 and $50
 
     const formattedPrice = (isYearly ? calculatedPrice * 0.75 : calculatedPrice).toFixed(2);
     setPrice(parseFloat(formattedPrice));
