@@ -9,15 +9,20 @@ export default {
   darkMode: 'class',
   theme: {
     colors: {
-      // background: {
-      //   DEFAULT: '#FFFFFF',
-      //   dark: '#000000',
-      // },
+      'background': {
+        DEFAULT: '#FFFFFF',
+        dark: '#000000',
+      },
+
       // greytext:{
       //   DEFAULT: '#848EAD',
       //   dark: '#848EAD',
       // },
       'white': '#FFFFFF',
+      'black': '#000000',
+      'vpblue': '#F1F5FE',
+      'vdblue': '#343947',
+      'dgreenblue': '#00264d',
       'back':'#F2F2F2',
       'hero':'#D9D2E9',
       'cyan':'#293356',

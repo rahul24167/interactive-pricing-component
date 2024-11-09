@@ -8,7 +8,7 @@ export const Intro= ()=>{
           <div className=" absolute top-0 right-0 rounded-full h-20 w-20 border border-lightgrey object-right-top"></div>
         </div>
         <div className="relative z-10 -translate-y-1/2 flex flex-col items-center justify-center">
-          <div className=" text-xl sm:text-3xl font-bold text-cyan">
+          <div className=" text-xl sm:text-3xl font-bold text-cyan dark:text-vpblue">
             Simple, traffic-based pricing
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center text-sm sm:text-base text-lightgrey">

@@ -34,12 +34,12 @@ export default function PricingSlider() {
 
   return (
     <>
-      <div className="w-[327px] sm:w-[540px] bg-[#FFFFFF] rounded-lg shadow-lg">
+      <div className="w-[327px] sm:w-[540px] bg-white dark:bg-dgreenblue rounded-lg shadow-lg">
         <div className="space-y-8 p-6 pt-8 sm:px-12">
           <div className="text-center">
             <div className="text-sm sm:text-base text-[#848EAD] font-semibold mb-6 sm:flex sm:flex-row sm:justify-between sm:items-center ">
               <div>100K PAGEVIEWS</div>
-              <div className="hidden sm:flex text-4xl sm:text-5xl font-bold text-[#293356]">
+              <div className="hidden sm:flex text-4xl sm:text-5xl font-bold text-cyan dark:text-vpblue">
                 ${price}{" "}
                 <span className="text-base sm:text-lg text-[#848EAD] font-semibold mt-6">
                   /month
@@ -69,7 +69,7 @@ export default function PricingSlider() {
                 <img src="/img/icon-slider.svg" alt="" />
               </div>
             </div>
-            <div className=" sm:hidden mt-8 text-3xl font-bold text-[#293356]">
+            <div className=" sm:hidden mt-8 text-3xl font-bold text-cyan dark:text-vpblue !important">
               ${price}{" "}
               <span className="text-sm text-[#848EAD] font-semibold">
                 / month
@@ -89,7 +89,7 @@ export default function PricingSlider() {
               checked={isYearly}
               onChange={() => setIsYearly(!isYearly)}
             />
-            <div className="w-[43px] h-[22px] bg-[#CFD8EF] peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:bottom-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-[18px] after:w-[18px] after:transition-all peer-checked:bg-green-600"></div>
+            <div className="w-[43px] h-[22px] bg-[#CFD8EF] peer-focus:outline-none rounded-full peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:bottom-[2px] after:left-[3px] after:bg-white after:dark:bg-black after:rounded-full after:h-[18px] after:w-[18px] after:transition-all"></div>
           </label>
           <span className="text-xs text-[#848EAD] font-normal flex flex-row mx-2 p-2 ">
             Yearly Billing
@@ -132,7 +132,7 @@ export default function PricingSlider() {
             </div>
           </div>
 
-          <button className="rounded-full bg-cyan h-10 w-44 mt-7 mb-4 text-[#BECDFF] font-bold text-xs flex justify-center items-center transition duration-300">
+          <button className="rounded-full bg-cyan dark:bg-vpblue h-10 w-44 mt-7 mb-4 text-[#BECDFF] dark:text-cyan font-bold text-xs flex justify-center items-center transition duration-300">
             Start my trial
           </button>
         </div>
