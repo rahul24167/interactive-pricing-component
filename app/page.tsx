@@ -24,10 +24,10 @@ export default function Home() {
   }, [isDark]);
 
   return (
-    <div className="bg-white dark:bg-black relative">
+    <div className="bg-white dark:bg-black relative font-manrope">
       <div className="bg-vpblue dark:bg-cyan z-0 h-100 sm:h-112.5 rounded-bl-full"></div>
       <div className="absolute top-5 right-5 flex items-center">
-        <span className="text-base text-[#848EAD] font-semibold mx-3">
+        <span className="text-base text-lightgrey font-semibold mx-3">
           Dark Mode
         </span>
         <label className="relative inline-flex items-center cursor-pointer">
@@ -39,7 +39,7 @@ export default function Home() {
               setIsDark((prev) => !prev);
             }}
           />
-          <div className="w-[43px] h-[22px] bg-[#CFD8EF] peer-focus:outline-none rounded-full peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:bottom-[2px] after:left-[3px] after:bg-white after:dark:bg-black after:rounded-full after:h-[18px] after:w-[18px] after:transition-all"></div>
+          <div className="w-[43px] h-[22px] bg-grayblue peer-focus:outline-none rounded-full peer-checked:bg-neongreen peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-[2px] after:bottom-[2px] after:left-[3px] after:bg-white after:dark:bg-black after:rounded-full after:h-[18px] after:w-[18px] after:transition-all"></div>
         </label>
       </div>
 

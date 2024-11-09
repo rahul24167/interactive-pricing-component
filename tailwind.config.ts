@@ -9,26 +9,15 @@ export default {
   darkMode: 'class',
   theme: {
     colors: {
-      'background': {
-        DEFAULT: '#FFFFFF',
-        dark: '#000000',
-      },
-
-      // greytext:{
-      //   DEFAULT: '#848EAD',
-      //   dark: '#848EAD',
-      // },
       'white': '#FFFFFF',
-      'black': '#000000',
+      'black': '#1a1a1a',
       'vpblue': '#F1F5FE',
-      'vdblue': '#343947',
       'dgreenblue': '#00264d',
-      'back':'#F2F2F2',
-      'hero':'#D9D2E9',
       'cyan':'#293356',
       'lightgrey':'#848EAD',
-      'circle':'#CFD8EF',
+      'grayblue':'#CFD8EF',
       'orange':'#FF8D68',
+      'greyred':'#FEEDE8',
       'neongreen':'#10D8C4',
       'lightpurple':'#BECDFF'
     },
@@ -53,7 +42,10 @@ export default {
       },
       translate: {
         '100': '25rem',
-      }
+      },
+      fontFamily: {
+        manrope: ['var(--font-manrope)', 'sans-serif'],
+      },
     },
   },
   plugins: [],
