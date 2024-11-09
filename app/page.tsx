@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-black relative font-manrope">
       <div className="bg-vpblue dark:bg-cyan z-0 h-100 sm:h-112.5 rounded-bl-full"></div>
-      <div className="absolute top-5 right-5 flex items-center">
+      <div className="absolute top-5 right-5 flex items-center z-50">
         <span className="text-base text-lightgrey font-semibold mx-3">
           Dark Mode
         </span>
